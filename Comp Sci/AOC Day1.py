@@ -39,7 +39,7 @@ while opt == True:
     b = sorted_second_half[j]
     if a == b:
         duplicates += 1
-        print("Duplicates found", duplicates, sorted_second_half[i], sorted_first_half[j])
+        print("Duplicates found", duplicates, sorted_first_half[i], "   " , "Position in first array: ", i, "   " , sorted_second_half[j], "   " , "Position in second array: ", j)
         i += 1  # Optionally, increment the index to avoid checking the same pair
         j += 1  # Optionally, increment the index to avoid checking the same pair
     else:
